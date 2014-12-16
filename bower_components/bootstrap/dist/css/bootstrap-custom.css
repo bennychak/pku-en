@@ -454,6 +454,8 @@ a:visited,
 }
 .m_slide .pic .lk {
   display: block;
+  *display: inline;
+  *zoom: 1;
   overflow: hidden;
   max-width: 100%;
 }
