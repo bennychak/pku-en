@@ -509,6 +509,10 @@ a:visited,
 .e_slide-small {
   overflow: hidden;
 }
+.e_slide-small .bd {
+  position: relative;
+  overflow: hidden;
+}
 .e_slide-small .pic {
   height: 130px;
 }
@@ -537,13 +541,13 @@ a:visited,
   width: 65%;
 }
 .slide1 .e_slide-small {
-  margin: 0 6px 6px 0;
+  padding: 0 6px 6px 0;
 }
 .slide2 .e_slide-small {
-  margin-bottom: 6px;
+  padding-bottom: 6px;
 }
 .slide3 .e_slide-small {
-  margin-right: 6px;
+  padding-right: 6px;
 }
 .slide1 .e_slide-small .info .t,
 .slide3 .e_slide-small .info .t {
@@ -1326,7 +1330,7 @@ a:visited,
   .e_slide-big .info .info_time {
     margin-top: 10px;
   }
-  .e_slide-small {
+  .e_slide-small .bd {
     height: 130px;
   }
   .e_slide-small .pic {
@@ -1561,7 +1565,7 @@ a:visited,
     padding-top: 7px;
     font-size: 1.5em;
   }
-  .e_slide-small {
+  .e_slide-small .bd {
     height: 103px;
   }
   .main {
@@ -1650,7 +1654,7 @@ a:visited,
   .e_slide-big .pic img {
     height: 370px;
   }
-  .e_slide-small {
+  .e_slide-small .bd {
     height: 124px;
   }
   .m_recommend .item {
@@ -1696,7 +1700,7 @@ a:visited,
   .e_slide-big .pic img {
     height: 415px;
   }
-  .e_slide-small {
+  .e_slide-small .bd {
     height: 146px;
   }
   .m_banner {
