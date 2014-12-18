@@ -6,7 +6,8 @@
 function fn_infoimg() {
 
 	var doc_w = document.body.clientWidth,
-		$infoimg_wrap = $('.f_infoimg_wrap');
+		speed = 400;
+
 	/*	$infoimg = $infoimg_wrap.find('.f_infoimg'),
 		speed = 400,
 
@@ -42,41 +43,50 @@ function fn_infoimg() {
 		$(this).unbind("mouseenter").unbind("mouseleave");
 	}*/
 
-	$infoimg_wrap.each(function() {
+	var $infoimg_wrap = $('.f_infoimg_wrap'),
+		$infoimg = $infoimg_wrap.find('.f_infoimg');
 
-		var $infoimg = $(this).find('.f_infoimg'),
-			speed = 400,
+	$infoimg.each(function() {
 
-			infoimg_h = $infoimg.height(),
-			infoimg_mg = $infoimg.css('marginTop').slice(1, -2),
+		var infoimg_h = $(this).height(),
+			infoimg_mg = $(this).css('marginTop').slice(1, -2),
 			infoimg_ex = infoimg_h - infoimg_mg;
 
+		$(this).css('visibility', 'visible');
 
-		if (!$infoimg.is(':animated')) {
+		if (doc_w >= 768) {
 
-			if (doc_w >= 768) {
+			$(this).css({
+				'position': 'absolute',
+				'bottom': - infoimg_ex + 'px'
+			});
 
-				$infoimg.removeClass('f_infoimg_status').css({
-					'transform': 'translateY(' + infoimg_ex + 'px)'
+			$(this).parent('.f_infoimg_wrap').bind('mouseenter', function() {
+
+				var $infoimg = $('.f_infoimg', this),
+					infoimg_h = $infoimg.height(),
+					infoimg_mg = $infoimg.css('marginTop').slice(1, -2),
+					infoimg_ex = infoimg_h - infoimg_mg;
+
+				$('.f_infoimg', this).css({
+					'bottom': 0
 				});
+				console.log(infoimg_h, infoimg_mg, infoimg_ex);
 
-				$(this).hover(function() {
-					$infoimg.addClass('f_infoimg_status').css({
-						'transform' : 'translateY(0px)'
-					});
-				}, function() {
-					$infoimg.removeClass('f_infoimg_status').css({
-						'transform': 'translateY(' + infoimg_ex + 'px)'
-					});
+			}).bind('mouseleave', function() {
+
+				$('.f_infoimg', this).css({
+					'bottom': - infoimg_ex + 'px'
 				});
-			} else {
-				$infoimg.addClass('f_infoimg_status').css({
-					'transform' : 'translateY(0px)'
-				});
+				console.log(infoimg_h, infoimg_mg, infoimg_ex);
 
-				$(this).unbind("mouseenter").unbind("mouseleave");
+			});
 
-			}
+		} else {
+			$(this).unbind("mouseenter").unbind("mouseleave").css({
+				'position': 'relative',
+				'bottom': - infoimg_ex + 'px'
+			});
 
 		}
 
