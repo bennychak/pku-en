@@ -223,11 +223,11 @@ $(function(){
 
 		// toggle
 		$('.m_information .item').hover(function(){
-			$('.ico_information',this).stop().fadeOut(speed);
-			$('.desc',this).stop().fadeIn(speed);
+			$('.ico_information',this).stop().animate({'opacity':0},speed).css({'display':'none'});
+			$('.desc',this).stop().css({'display':'block'}).animate({'opacity':1},speed);
 		},function(){
-			$('.ico_information',this).stop().fadeIn(speed);
-			$('.desc',this).stop().fadeOut(speed);
+			$('.ico_information',this).stop().css({'display':'block'}).animate({'opacity':1},speed);
+			$('.desc',this).stop().animate({'opacity':0},speed).css({'display':'none'});
 		});
 	}
 

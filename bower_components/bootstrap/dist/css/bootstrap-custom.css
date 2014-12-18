@@ -321,7 +321,7 @@ a:visited,
 .carousel-indicators li,
 .icon-prev,
 .icon-next {
-  background-image: url(../../assets/images/sprite.png);
+  background-image: url(../../assets/images/sprite_141218.png);
   background-repeat: no-repeat;
   background-size: 154px 124px;
 }
@@ -1502,7 +1502,7 @@ a:visited,
     text-align: right;
   }
   .msgDetail section {
-    width: 62.5%;
+    width: 64%;
     float: left;
     border-bottom: none;
   }
@@ -1510,7 +1510,7 @@ a:visited,
     display: block;
   }
   .msgDetail aside {
-    width: 37.5%;
+    width: 36%;
     overflow: hidden;
   }
   .msgDetail aside .side_bd {
@@ -1548,10 +1548,10 @@ a:visited,
     display: none;
   }
   .slide-c1 {
-    width: 62.5%;
+    width: 64%;
   }
   .slide-c2 {
-    width: 37.5%;
+    width: 36%;
   }
   .m_slide-group {
     padding-left: 6px;
@@ -1571,7 +1571,7 @@ a:visited,
     height: 103px;
   }
   .main {
-    width: 62.5%;
+    width: 64%;
     float: left;
   }
   .main .bor {
@@ -1591,7 +1591,7 @@ a:visited,
     width: 100%;
   }
   .side {
-    width: 37.5%;
+    width: 36%;
     overflow: hidden;
   }
   .side .side_bd {
@@ -1691,7 +1691,7 @@ a:visited,
 }
 @media (min-width: 1300px) {
   .container {
-    width: 1298px;
+    width: 1268px;
   }
   .m_tabs {
     height: 117px;
