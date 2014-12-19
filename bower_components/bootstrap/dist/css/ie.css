@@ -13,9 +13,6 @@
 .m_information .item .ico_information{ *display:none}
 .m_information .item .desc{ *display:block}
 
-/* foot */
-.m_foot-logo .logo{ max-width:100%}
-
 .e_slide-small .info{ overflow:hidden; min-height:100%}
 .e_slide-big .info{ overflow:hidden; min-height:180px;}
 
