@@ -5,44 +5,6 @@
 // image text slider
 function fn_infoimg() {
 
-	var doc_w = document.body.clientWidth,
-		speed = 400;
-
-	var $infoimg_wrap = $('.f_infoimg_wrap');
-
-	if (doc_w >= 768) {
-		$infoimg_wrap.each(function() {
-
-			var $infoimg = $(this).find('.f_infoimg'),
-				infoimg_h = $infoimg.height(),
-				infoimg_mg = $infoimg.css('marginTop').slice(1, -2),
-				infoimg_ex = infoimg_h - infoimg_mg;
-
-				$('.f_infoimg', this).stop().css({
-					'bottom': '-' + infoimg_ex + 'px'
-				});
-
-			$(this).hover(function() {
-
-				$('.f_infoimg', this).stop().animate({
-					'bottom': 0 + 'px'
-				}, speed);
-
-			}, function() {
-
-					var infoimg_h = $('.f_infoimg', this).height(),
-						infoimg_ex = infoimg_h - infoimg_mg;
-
-				$('.f_infoimg', this).stop().animate({
-					'bottom': '-' + infoimg_ex + 'px'
-				}, speed);
-
-			});
-		});
-	} else {
-		$(this).unbind("mouseenter").unbind("mouseleave");
-		$infoimg_wrap.find('.f_infoimg').css('bottom', 'auto');
-	}
 
 	/*	$infoimg = $infoimg_wrap.find('.f_infoimg'),
 		speed = 400,
