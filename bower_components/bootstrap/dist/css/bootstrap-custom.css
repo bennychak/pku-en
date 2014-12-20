@@ -1296,7 +1296,7 @@ a:visited,
 }
 @media (min-width: 768px) {
   .f_infoimg {
-    visibility: hidden;
+    visibility: visible;
   }
   .col-edge {
     padding-left: 9px;
