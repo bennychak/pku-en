@@ -460,7 +460,6 @@ a:visited,
   max-width: 100%;
 }
 .m_slide .info {
-  position: relative;
   display: block;
   width: 100%;
   background: #000;
@@ -490,6 +489,9 @@ a:visited,
 .e_slide-big .pic img {
   display: block;
   width: 100%;
+}
+.e_slide-big .info {
+  margin-top: -59px;
 }
 .e_slide-big .info .h3 {
   line-height: 1.7em;
