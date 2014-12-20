@@ -300,7 +300,7 @@ $(function() {
 
 		// show information
 		$_info.find('.ico_information').hide();
-		$_info.find('.desc').show();
+		$_info.find('.desc').show().css('opacity',1);
 
 	} else {
 		$_info.find('.ico_information').show();
