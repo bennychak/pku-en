@@ -41,7 +41,6 @@ function fn_infoimg() {
 		});
 	} else {
 		$(this).unbind("mouseenter").unbind("mouseleave");
-		$infoimg_wrap.find('.f_infoimg').css('bottom', 'auto');
 	}
 
 	/*	$infoimg = $infoimg_wrap.find('.f_infoimg'),
