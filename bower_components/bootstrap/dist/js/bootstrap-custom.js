@@ -18,7 +18,7 @@ function fn_infoimg() {
 				infoimg_mg = $infoimg.css('marginTop').slice(1, -2),
 				infoimg_ex = infoimg_h - infoimg_mg;
 
-				$('.f_infoimg', this).stop().css({
+				$('.f_infoimg', this).css({
 					'bottom': '-' + infoimg_ex + 'px'
 				});
 
@@ -31,7 +31,7 @@ function fn_infoimg() {
 			}, function() {
 
 				// var infoimg_h = $('.f_infoimg', this).height(),
-				// 	infoimg_ex = infoimg_h - infoimg_mg;
+				// infoimg_ex = infoimg_h - infoimg_mg;
 
 				$('.f_infoimg', this).stop().animate({
 					'bottom': '-' + infoimg_ex + 'px'
