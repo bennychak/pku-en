@@ -276,6 +276,9 @@ window.onload = function() {
 window.onresize = function() {
 	instantLoad();
 }
+window.onscroll = function(){
+	instantLoad();
+}
 
 // document.ready function
 $(function() {
