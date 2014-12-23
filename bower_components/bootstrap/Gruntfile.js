@@ -136,6 +136,10 @@ module.exports = function (grunt) {
           'docs/assets/js/_src/application.js'
         ],
         dest: 'docs/assets/js/docs.min.js'
+      },
+      custom: {
+        src: 'dist/js/bootstrap-custom.js',
+        dest: 'dist/js/bootstrap-custom.min.js'
       }
     },
 
