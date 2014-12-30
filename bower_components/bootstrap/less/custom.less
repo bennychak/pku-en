@@ -35,7 +35,7 @@
 @main: 64%;
 @side: 36%;
 
-.container{ _width:960px}
+.container{}
 .col-edge{ padding-left:0; padding-right:0}
 
 // navbar
@@ -372,6 +372,7 @@
 .sidenav .lst2 .active a:hover,
 .sidenav .lst2 .active a:active,
 .sidenav .lst2 .active a:visited{ color:#900000}
+.sidenav .lst3 .active:before{ height:8px}
 
 // sidebtm
 .sidebtm{ width:100%;}
@@ -403,7 +404,7 @@
 // msgSlide
 .msgSlide{}
 .msgSlide section{ padding-top:15px; padding-bottom:15px; line-height:1.5em; font-size:.875em; color:#000; border-bottom:#dcdcdc 1px solid}
-.msgSlide section .con{ position:relative; padding:10px 0}
+.msgSlide section .con{ position:relative; min-height:109px; padding:10px 0}
 .msgSlide section .art p{ margin-bottom:20px}
 
 .f_infoimg{ bottom:auto;
@@ -559,11 +560,15 @@ body{}
 
 .m_slide-group{ padding-left:6px; margin-top:0}
 
-.e_slide-big .pic img{ height:305px}
+.e_slide-big .pic img{ height:312px!important}
 .e_slide-big .info{ margin-top:-56px}
 .e_slide-big .info .h3{ padding-top:7px; font-size:1.5em}
 
 .e_slide-small .bd{ height:106px}
+
+// banner
+.e_banner_slide{}
+.e_banner_slide img{ width:100%; height:312px}
 
 // content-wrap
 .e_content-wrap_btm{}
@@ -602,7 +607,7 @@ body{}
 .sidebtm_bd{ margin-left:8px}
 
 // summary
-.m_summary{ height:212px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
+.m_summary{ height:219px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
 
 }
 
@@ -624,7 +629,7 @@ body{}
 .e_tabs_btm .item{ height:30px}
 
 // slide
-.e_slide-big .pic img{ height:370px}
+.e_slide-big .pic img{ height:378px!important}
 .e_slide-small .bd{ height:128px}
 
 // recommend
@@ -640,9 +645,10 @@ body{}
 .m_banner{ height:@tabs_h;}
 
 .e_banner_slide{ height:auto}
+.e_banner_slide img{ height:378px}
 
 // summary
-.m_summary{ height:254px;}
+.m_summary{ height:262px;}
 .m_summary h1{ font-size:22px}
 .m_summary .p{ font-size:.875em}
 
@@ -666,13 +672,14 @@ body{}
 .e_tabs_btm{ height:auto}
 
 // slide
-.e_slide-big .pic img{ height:415px}
+.e_slide-big .pic img{ height:415px!important}
 .e_slide-small .bd{ height:146px}
 
 // banner
 .m_banner{ height:@tabs_h;}
 
 .e_banner_slide{ height:auto}
+.e_banner_slide img{ height:415px}
 
 // summary
 .m_summary{ height:298px;}
