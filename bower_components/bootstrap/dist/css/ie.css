@@ -26,14 +26,6 @@ body{}
 .e_slide-small .bd{ height:130px}
 .e_slide-small .pic{ height:100%}
 .e_slide-small .info{ position: absolute; left:0; height:100%}
-.e_slide-small .info .t{ position:absolute; left:0; top:0; width:0; height:30px; padding-left:0; border-left:#e8b149 6px solid; background:#e8b149; color:#000}
-.e_slide-small:hover .info{ padding-top:40px;}
-.e_slide-small:hover .info .t{ top:10px; left:10px; height:26px; padding-top:3px; padding-bottom:3px; width:70px;}
-
-.slide1 .e_slide-small .info .t,
-.slide3 .e_slide-small .info .t{ background:#e8b149}
-.slide2 .e_slide-small .info .t,
-.slide4 .e_slide-small .info .t{ background:#4d6989}
 
 /*m_tabs*/
 .e_tabs_btm{}
@@ -200,7 +192,7 @@ body{}
 
 .m_recommend .item .zoom-pic{}
 
-/* lt IE9 fix
+/* lt IE8 fix
 --------------------------------*/
 
 .container{ width:960px;}
@@ -218,15 +210,43 @@ body{}
 .m_information .item .ico_information{ *display:none}
 .m_information .item .desc{ *display:block}
 
-.e_slide-small .info{ overflow:hidden; min-height:100%}
 .e_slide-big .info{ overflow:hidden; min-height:180px;}
 
 
 /******* ie7 box-sizing hand fix ********/
 
-.col-edge,
+/*.col-edge,
 .e_slide-small .info,
 .e_slide-small:hover .info .t,
 .m_tabs .item,
-.m_tabs .lk{ *behavior:url(http://bennychia.com/pku-en/bower_components/box-sizing-polyfill/boxsizing.htc)}
+.m_tabs .lk{ *behavior:url(http://bennychia.com/pku-en/bower_components/box-sizing-polyfill/boxsizing.htc)}*/
+
+.pagination{ *display:inline; *zoom:1;}
+
+.e_input_search{ *width:104px; *height:26px}
+.m_tabs .item{ width:49%}
+.m_recommend .item .tit{ *height:47px}
+.gateways_item .col-xs-18{ *width:94px;}
+.gateways_item .col-xs-28{ *width:404px;}
+.msg_tit .col-xs-50,
+.msgDetail .con .art,
+.msgSlide .con .art{ *width:585px;}
+.m_summary{ *height:198px}
+.m_recommend_btm .item{ *width:120px; *height:140px;}
+.main .m_recommend_btm .e_item_5 .bor{ *display:none}
+
+.social-plat .item{ *margin-right:10px}
+
+.ie-index-news{ *width:596px;}
+.ie-index-events{ *width:328px;}
+.ie-index-news-item{ *width:289px;}
+.ie-index-footlogo{ *width:520px;}
+.ie-index-copyright{ *width:404px;}
+
+.topinfo .col-sm-50{ *width:603px;}
+.topinfo .col-sm-38{ *width:454px;}
+.topinfo .col-sm-12{ *width:131px;}
+.ie-sub-foot{ *width:146px;}
+.ie-sub-content-wrap{ *width:942px;}
+
 
