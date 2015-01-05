@@ -26,6 +26,7 @@ body{}
 .e_slide-small .bd{ height:114px}
 .e_slide-small .pic{ height:100%}
 .e_slide-small .info{ position: absolute; left:0; height:100%}
+.e_slide-small .info .t{ display:none}
 
 /*m_tabs*/
 .e_tabs_btm{}
