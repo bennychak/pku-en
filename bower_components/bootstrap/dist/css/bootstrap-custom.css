@@ -1107,6 +1107,7 @@ a:visited,
   word-break: break-all;
   font-size: 1.55em;
   color: #808080;
+  *zoom: 1;
 }
 .msgList,
 .msgList li {
