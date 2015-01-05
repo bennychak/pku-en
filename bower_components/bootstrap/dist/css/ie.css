@@ -23,7 +23,7 @@ body{}
 .e_slide-big .info .p{ bottom-top:10px}
 .e_slide-big .info .info_time{ margin-top:10px}
 
-.e_slide-small .bd{ height:130px}
+.e_slide-small .bd{ height:114px}
 .e_slide-small .pic{ height:100%}
 .e_slide-small .info{ position: absolute; left:0; height:100%}
 
@@ -215,12 +215,6 @@ body{}
 
 /******* ie7 box-sizing hand fix ********/
 
-/*.col-edge,
-.e_slide-small .info,
-.e_slide-small:hover .info .t,
-.m_tabs .item,
-.m_tabs .lk{ *behavior:url(http://bennychia.com/pku-en/bower_components/box-sizing-polyfill/boxsizing.htc)}*/
-
 .pagination{ *display:inline; *zoom:1;}
 
 .e_input_search{ *width:104px; *height:26px}
@@ -245,7 +239,7 @@ body{}
 
 .topinfo .col-sm-50{ *width:603px;}
 .topinfo .col-sm-38{ *width:454px;}
-.topinfo .col-sm-12{ *width:131px;}
+.topinfo .col-sm-12{ *width:123px;}
 .ie-sub-foot{ *width:146px;}
 .ie-sub-content-wrap{ *width:942px;}
 

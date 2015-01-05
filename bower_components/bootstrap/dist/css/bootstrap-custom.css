@@ -565,7 +565,7 @@ a:visited,
 }
 .m_tabs {
   padding-left: 4%;
-  height: 93px;
+  height: 130px;
 }
 .m_tabs ul,
 .m_tabs li {
@@ -1020,7 +1020,7 @@ a:visited,
   float: none;
 }
 .m_banner {
-  height: 93px;
+  height: 130px;
   overflow: hidden;
 }
 .e_banner_slide {
@@ -1555,7 +1555,7 @@ a:visited,
     margin-top: 0;
   }
   .e_slide-big .pic img {
-    height: 312px !important;
+    height: 336px !important;
   }
   .e_slide-big .info {
     margin-top: -56px;
@@ -1565,11 +1565,11 @@ a:visited,
     font-size: 1.5em;
   }
   .e_slide-small .bd {
-    height: 106px;
+    height: 100px;
   }
   .e_banner_slide img {
     width: 100%;
-    height: 312px;
+    height: 336px;
   }
   .main {
     width: 64%;
@@ -1634,7 +1634,7 @@ a:visited,
     margin-left: 8px;
   }
   .m_summary {
-    height: 219px;
+    height: 206px;
     margin-left: 8px;
     border-left: #808080 8px solid;
     overflow: hidden;
@@ -1642,7 +1642,7 @@ a:visited,
 }
 @media (min-width: 1200px) {
   .m_tabs {
-    height: 116px;
+    height: 160px;
   }
   .m_tabs .item {
     height: 25px;
@@ -1655,10 +1655,10 @@ a:visited,
     height: 30px;
   }
   .e_slide-big .pic img {
-    height: 378px !important;
+    height: 406px !important;
   }
   .e_slide-small .bd {
-    height: 128px;
+    height: 120px;
   }
   .m_recommend .item {
     width: 20%;
@@ -1675,16 +1675,16 @@ a:visited,
     display: none;
   }
   .m_banner {
-    height: 116px;
+    height: 160px;
   }
   .e_banner_slide {
     height: auto;
   }
   .e_banner_slide img {
-    height: 378px;
+    height: 406px;
   }
   .m_summary {
-    height: 262px;
+    height: 246px;
   }
   .m_summary h1 {
     font-size: 22px;
@@ -1698,28 +1698,28 @@ a:visited,
     width: 1268px;
   }
   .m_tabs {
-    height: 117px;
+    height: 164px;
   }
   .e_tabs_btm {
     height: auto;
   }
   .e_slide-big .pic img {
-    height: 415px !important;
+    height: 450px !important;
   }
   .e_slide-small .bd {
-    height: 146px;
+    height: 140px;
   }
   .m_banner {
-    height: 117px;
+    height: 164px;
   }
   .e_banner_slide {
     height: auto;
   }
   .e_banner_slide img {
-    height: 415px;
+    height: 450px;
   }
   .m_summary {
-    height: 298px;
+    height: 286px;
   }
 }
 /*# sourceMappingURL=bootstrap-custom.css.map */

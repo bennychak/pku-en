@@ -24,6 +24,9 @@
 <!-- theme CSS file -->
 <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 
+<!-- Multilevel -->
+<link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-dropdown-multilevel.css">
+
 <!-- custom CSS file -->
 <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-custom.css">
 
@@ -39,6 +42,9 @@
 
 <!-- Bootstrap core JavaScript file -->
 <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap core JavaScript file -->
+<script src="./bower_components/bootstrap/dist/js/bootstrap-dropdown-multilevel.js"></script>
 
 <!-- imgLiquid JavaScript file -->
 <script src="./bower_components/jquery/plugin/imgLiquid-min.js"></script>
@@ -91,7 +97,23 @@ document.createElement('aside');
       <ul class="nav navbar-nav navbar-right e_nav_mainnav">
         <li class="active"><a href="./content.html">About PKU</a></li>
         <li><a href="./list-admission.html">Admission</a></li>
-        <li><a href="./list.html">News</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">News <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="./list.html">Global</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Focus <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li style="text-indent:16px"><a href="./list.html">Brief Introduction</a></li>
+                <li style="text-indent:16px"><a href="./list.html">Graduate Course Listing</a></li>
+              </ul>
+            </li>
+            <li><a href="./list.html">Campus</a></li>
+            <li><a href="./list.html">Media</a></li>
+            <li><a href="./list.html">People</a></li>
+            <li><a href="./list.html">Research</a></li>
+          </ul>
+        </li>
         <li><a href="./list-acdemics.html">Acdemics & Research</a></li>
         <li><a href="./list-events.html">Events</a></li>
         <li><a href="./list-administration.html">Administration</a></li>
@@ -175,25 +197,37 @@ document.createElement('aside');
 		<a href="./content.html" class="lk"><span class="txt">About PKU</span></a>
 	</li>
 	<li class="item">
-		<a href="./list-admission.html" class="lk"><span class="txt">Admission</span></a>
+		<a href="./list-administration.html" class="lk"><span class="txt">Administration</span></a>
 	</li>
 	<li class="item">
 		<a href="./list.html" class="lk"><span class="txt">News</span></a>
 	</li>
 	<li class="item">
-		<a href="./list-acdemics.html" class="lk"><span class="txt">Acdemics & Research</span></a>
+		<a href="./list-employment.html" class="lk"><span class="txt">Employment</span></a>
 	</li>
 	<li class="item">
 		<a href="./list-events.html" class="lk"><span class="txt">Events</span></a>
 	</li>
 	<li class="item">
-		<a href="./list-administration.html" class="lk"><span class="txt">Administration</span></a>
+		<a href="###" class="lk"><span class="txt">Health Science Center</span></a>
 	</li>
 	<li class="item">
 		<a href="./list-schools.html" class="lk"><span class="txt">Schools & Departments</span></a>
 	</li>
 	<li class="item">
-		<a href="./list-employment.html" class="lk"><span class="txt">Employment</span></a>
+		<a href="###" class="lk"><span class="txt">Library</span></a>
+	</li>
+	<li class="item">
+		<a href="./list-admission.html" class="lk"><span class="txt">Admission</span></a>
+	</li>
+	<li class="item">
+		<a href="###" class="lk"><span class="txt">Giving To PKU</span></a>
+	</li>
+	<li class="item">
+		<a href="./list-acdemics.html" class="lk"><span class="txt">Acdemics & Research</span></a>
+	</li>
+	<li class="item">
+		<a href="###" class="lk"><span class="txt">Alumni</span></a>
 	</li>
 	</ul>
 </div>
