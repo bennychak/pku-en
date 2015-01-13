@@ -1,12 +1,11 @@
 // File: Custom Javascript
-// Domain: http://english.pku.edu.cn
 // Author: bienfantaisie#gmail.com
 
 // image text slider
 function fn_infoimg() {
 
 	var doc_w = document.body.clientWidth,
-		speed = 400;
+		speed = 200;
 
 	var $infoimg_wrap = $('.f_infoimg_wrap');
 
@@ -30,9 +29,6 @@ function fn_infoimg() {
 
 			}, function() {
 
-				// var infoimg_h = $('.f_infoimg', this).height(),
-				// infoimg_ex = infoimg_h - infoimg_mg;
-
 				$('.f_infoimg', this).stop().animate({
 					'bottom': '-' + infoimg_ex + 'px'
 				}, speed);
@@ -43,93 +39,6 @@ function fn_infoimg() {
 		$(this).unbind("mouseenter").unbind("mouseleave");
 		$infoimg_wrap.find('.f_infoimg').css('bottom', 'auto');
 	}
-
-	/*	$infoimg = $infoimg_wrap.find('.f_infoimg'),
-		speed = 400,
-
-		infoimg_h = $infoimg.height(),
-		infoimg_mg = $infoimg.css('marginTop').slice(1, -2),
-		infoimg_ex = infoimg_h - infoimg_mg;
-
-	if (doc_w >= 768) {
-		if (!$infoimg.is(':animated')) {
-
-			$infoimg.css({
-				'position': 'absolute',
-				'bottom': -infoimg_ex + 'px',
-				'visibility': 'visible'
-			});
-			$infoimg_wrap.hover(function() {
-				$infoimg.stop().animate({
-					'bottom': 0
-				}, speed);
-			}, function() {
-				$infoimg.stop().animate({
-					'bottom': -infoimg_ex + 'px'
-				}, speed);
-			});
-		}
-	} else {
-		$infoimg.css({
-			'position': 'absolute',
-			'bottom': 0,
-			'visibility': 'visible'
-		});
-
-		$(this).unbind("mouseenter").unbind("mouseleave");
-	}*/
-
-	/* var $infoimg = $('.f_infoimg');
-
-	$infoimg.each(function() {
-
-		var infoimg_h = $(this)[0].clientHeight,
-			infoimg_mg = $(this).css('marginTop').slice(1, -2),
-			infoimg_ex = infoimg_h - infoimg_mg;
-
-		$(this).css('visibility', 'visible');
-
-		if (doc_w >= 768) {
-
-			if(!+[1,]){
-				$(this).height($(this).height());
-				var infoimg_h = $(this).height();
-			}
-
-			$(this).stop().animate({
-				'position': 'absolute',
-				'bottom': -infoimg_ex + 'px'
-			},0);
-
-			$(this).parent('.f_infoimg_wrap').bind({
-				mouseenter: function() {
-					if(!+[1,]){
-						$(this).height($(this).height());
-						var infoimg_h = $(this).height();
-					}
-
-					$('.f_infoimg', this).stop().animate({
-						'bottom': '0px'
-					}, speed);
-				},
-				mouseleave: function() {
-
-					$('.f_infoimg', this).stop().animate({
-						'bottom': -infoimg_ex + 'px'
-					}, speed);
-				}
-			});
-
-		} else {
-
-			$(this).unbind("mouseenter").unbind("mouseleave").animate({
-				'position': 'relative',
-				'bottom': -infoimg_ex + 'px'
-			}, speed);
-
-		}
-
-	});*/
 
 }
 
@@ -195,7 +104,7 @@ function fn_dockMsg() {
 			var reco_h = $(this).height(),
 				pic_h = $('.zoom-pic', this).height(),
 				offset_btm = $('.dock-msg', this).css('bottom').slice(0, -2),
-				speed = 350;
+				speed = 400;
 
 			$(this).hover(function() {
 
@@ -285,13 +194,6 @@ $(function() {
 
 	// imgLiquid plugin
 	$(".imgLiquidFill").imgLiquid();
-
-	// $('.bttrlazyloading').bttrlazyloading();
-
-	// lazyload
-	//$('img.lazy').lazyload({
-	//	effect : 'fadeIn'
-	//});
 
 	// information
 	var $_info = $('.m_information .item');
