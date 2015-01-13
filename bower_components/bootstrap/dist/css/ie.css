@@ -133,15 +133,15 @@ body{}
 
 .m_slide-group{ padding-left:6px; margin-top:0}
 
-.e_slide-big .pic img{ height:312px!important}
+.e_slide-big .pic img{ height:357px!important}
 .e_slide-big .info{ margin-top:-56px}
 .e_slide-big .info .h3{ padding-top:7px; font-size:1.5em}
 
-.e_slide-small .bd{ height:88px}
+.e_slide-small .bd{ height:100px}
 
 /*banner*/
 .e_banner_slide{}
-.e_banner_slide img{ width:100%; height:312px}
+.e_banner_slide img{ width:100%; height:357px}
 
 /*content-wrap*/
 .e_content-wrap_btm{}
