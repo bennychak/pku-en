@@ -212,7 +212,7 @@ body{}
 .m_information .item .desc{ *display:block}
 
 .e_slide-big .info,
-.e_slide-small .info{background:none\9;filter: progid:DXImageTransform.Microsoft.Gradient(enabled='true',startColorstr='#66000000',endColorstr='#66000000');}
+.e_slide-small .info{ margin-top:0; background:none\9;filter: progid:DXImageTransform.Microsoft.Gradient(enabled='true',startColorstr='#66000000',endColorstr='#66000000');}
 :root .e_slide-big .info,
 :root .e_slide-small .info{ filter:none\9;}
 
