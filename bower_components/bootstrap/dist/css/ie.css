@@ -82,6 +82,11 @@ a{cursor:pointer;}
 .m_foot-bottom .group{ float:left; text-align:left; border-left:#808080 1px solid;}
 .m_foot-bottom .group:first-child{ border-left:none}
 
+/*social-plat*/
+.social-plat{ margin-bottom:10px}
+.social-plat ul{ text-align:left;}
+.social-plat .item{ display:block; float:left; margin-right:16px}
+
 /*content-wrap*/
 .e_content-wrap_btm{}
 
