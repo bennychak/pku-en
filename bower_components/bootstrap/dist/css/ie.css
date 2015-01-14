@@ -79,6 +79,8 @@ a{cursor:pointer;}
 .m_foot-logo{ text-align:left;}
 .m_foot-logo .logo{}
 
+.m_foot-copyright{ border-top:none}
+
 .m_foot-bottom .group{ float:left; text-align:left; border-left:#808080 1px solid;}
 .m_foot-bottom .group:first-child{ border-left:none}
 

@@ -929,6 +929,9 @@ a:visited,
   word-wrap: break-word;
   border-top: #a9a9a9 1px solid;
 }
+.e_container_content .m_foot-copyright {
+  border-top: none;
+}
 .m_foot-bottom {
   padding: 12px 0;
   border-top: #a9a9a9 1px solid;
@@ -1450,6 +1453,9 @@ a:visited,
   }
   .m_foot-logo {
     text-align: left;
+  }
+  .m_foot-copyright {
+    border-top: none;
   }
   .m_foot-bottom .group {
     float: left;
