@@ -237,6 +237,7 @@ body{}
 .msg_tit .col-xs-50,
 .msgDetail .con .art,
 .msgSlide .con .art{ *width:585px;}
+.m_summary{ *height:182px}
 .m_recommend_btm .item{ *width:120px; *height:140px;}
 .main .m_recommend_btm .e_item_5 .bor{ *display:none}
 
