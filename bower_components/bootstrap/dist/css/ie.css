@@ -187,7 +187,7 @@ body{}
 .sidebtm_bd{ margin-left:8px}
 
 /*summary*/
-.m_summary{ height:219px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
+.m_summary{ height:206px; margin-left:8px; border-left:#808080 8px solid; overflow:hidden}
 
 /* big-screen desktop >= 1200px cascading cover
 ------------------------------------------*/
@@ -237,7 +237,6 @@ body{}
 .msg_tit .col-xs-50,
 .msgDetail .con .art,
 .msgSlide .con .art{ *width:585px;}
-.m_summary{ *height:158px}
 .m_recommend_btm .item{ *width:120px; *height:140px;}
 .main .m_recommend_btm .e_item_5 .bor{ *display:none}
 
