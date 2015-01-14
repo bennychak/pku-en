@@ -27,7 +27,7 @@ a{cursor:pointer;}
 
 .e_slide-small .bd{ height:114px}
 .e_slide-small .pic{ height:100%}
-.e_slide-small .info{ position: absolute; left:0; height:100%}
+.e_slide-small .info{ position: absolute; left:0;}
 .e_slide-small .info .t{ white-space:normal;}
 
 /*m_tabs*/
@@ -225,7 +225,7 @@ body{}
 :root .e_slide-big .info,
 :root .e_slide-small .info{ filter:none\9;}
 
-.e_slide-big .info{ overflow:hidden; min-height:180px;}
+.e_slide-big .info{ overflow:hidden;}
 
 /******* ie7 box-sizing hand fix ********/
 
