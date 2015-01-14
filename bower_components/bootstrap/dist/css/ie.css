@@ -85,7 +85,7 @@ a{cursor:pointer;}
 /*social-plat*/
 .social-plat{ margin-bottom:10px}
 .social-plat ul{ text-align:left;}
-.social-plat .item{ display:block; float:left; margin-right:16px}
+.social-plat .item{ display:block; float:left; margin-right:10px}
 
 /*content-wrap*/
 .e_content-wrap_btm{}
@@ -240,8 +240,6 @@ body{}
 .m_summary{ *height:182px}
 .m_recommend_btm .item{ *width:120px; *height:140px;}
 .main .m_recommend_btm .e_item_5 .bor{ *display:none}
-
-.social-plat .item{ *margin-right:10px}
 
 .ie-index-news{ *width:596px;}
 .ie-index-events{ *width:328px;}
